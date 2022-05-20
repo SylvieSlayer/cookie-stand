@@ -1,0 +1,27 @@
+header, 
+footer {
+  text-align: center;
+}
+
+.salmon {
+  width: px;
+  height: 105px;
+  background: white;
+  border-radius: 50%;
+  object-position: top left;
+
+}
+
+.needle {
+  width: 250px;
+  height: 105px;
+  background: #a8490;
+  border-radius: 50%;
+  object-position: top right;
+}
+
+
+body {
+  background-color: lightgray;
+}
+
