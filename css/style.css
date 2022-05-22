@@ -1,14 +1,13 @@
-header, 
-footer {
+header {
   text-align: center;
+  padding: 0px;
 }
 
 .salmon {
   width: px;
   height: 105px;
-  background: white;
+  background: lightgray;
   border-radius: 50%;
-  object-position: top left;
 
 }
 
@@ -17,11 +16,17 @@ footer {
   height: 105px;
   background: #a8490;
   border-radius: 50%;
-  object-position: top right;
 }
 
 
 body {
   background-color: lightgray;
+}
+
+.l1,
+.l2,
+.l3 {
+border-style: double;
+
 }
 
