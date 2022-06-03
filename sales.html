@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salmon-Cookies</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Salmon Cookie Sales</h1>
+  </header>
+  <main>
+    <table id="Table">
+    </table>
+
+    <form id="new-cookie-stand"></form>
+    <fieldset>
+      <div>
+      <label>
+        Locations:
+        <input id="loc" type="text" name="site" required="required"/>
+      </label>
+    </div>
+    <div>
+      <label>
+        Minimum Hourly Customers:
+        <input id="minCust" type="number" name="minCust" required="required" min="0" max="50"/>
+      </label>
+    </div>
+    <div>
+      <label>
+        Maximum Hourly Customers:
+        <input id="maxCust" type="number" name="maxCust" required="required" min="2" max="99"/>
+      </label>
+    </div>
+    <div>
+        <label>
+        Average Cookies Sold Per Customer:
+        <input id="avgCookies" type="number" name="avgCookies" required="required" min="1" max="30/">
+      </label>
+    </div>
+      <input id="button" type="submit" name="Submit"/>
+    </fieldset>
+  </form>
+</main>
+  <hr>
+  <footer style="margin: top 400px;"></footer>
+  copyright 2022 Salmon-Cookies&copy;
+</body>
+</html>

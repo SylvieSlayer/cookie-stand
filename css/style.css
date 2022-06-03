@@ -16,6 +16,7 @@ header {
   height: 105px;
   background: #a8490;
   border-radius: 50%;
+  float: right;
 }
 
 
@@ -27,6 +28,31 @@ body {
 .l2,
 .l3 {
 border-style: double;
-
+margin-top: 10px;
 }
 
+h1 {
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+  
+}
+
+#loc {
+margin-bottom: 2px;
+}
+ 
+#minCust {
+margin-bottom: 2px;
+}
+
+#maxCust {
+  margin-bottom: 2px;
+}
+
+#button {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
