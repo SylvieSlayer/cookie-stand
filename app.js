@@ -32,9 +32,9 @@ console.log(Seattle.randomCustNumber());
 //Tokyo
 let Tokyo = {
   
-  minimum: 23,
-  maximum: 65,
-  aveCookies: 6.3,
+  minimum: 3,
+  maximum: 24,
+  aveCookies: 1.2,
 
   randomCustNumber: function (){
     return getRandomNumber (this.minimum, this.maximum);
@@ -45,9 +45,9 @@ let Tokyo = {
 //Dubai
 let Dubai = {
   
-  minimum: 23,
-  maximum: 65,
-  aveCookies: 6.3,
+  minimum: 11,
+  maximum: 38,
+  aveCookies: 3.7,
 
   randomCustNumber: function (){
     return getRandomNumber (this.minimum, this.maximum);
@@ -65,9 +65,9 @@ console.log(Dubai.randomCustNumber());
 //Paris
 let Paris = {
   
-  minimum: 23,
-  maximum: 65,
-  aveCookies: 6.3,
+  minimum: 20,
+  maximum: 38,
+  aveCookies: 2.3,
 
   randomCustNumber: function (){
     return getRandomNumber (this.minimum, this.maximum);
@@ -85,9 +85,9 @@ console.log(Paris.randomCustNumber());
 //Lima
 let Lima = {
   
-  minimum: 23,
-  maximum: 65,
-  aveCookies: 6.3,
+  minimum: 2,
+  maximum: 16,
+  aveCookies: 4.6,
 
   randomCustNumber: function (){
     return getRandomNumber (this.minimum, this.maximum);
